@@ -1,0 +1,41 @@
+/* src/styles/Player.css */
+.player-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.player-controls button {
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.player-controls button:hover {
+  background: linear-gradient(135deg, #10b981, #34d399);
+  transform: translateY(-2px);
+}
+
+.player-controls button:active {
+  transform: translateY(0);
+}
+
+.player-position {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #374151;
+  text-align: center;
+}

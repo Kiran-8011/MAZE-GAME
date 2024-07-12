@@ -1,0 +1,49 @@
+/* src/styles/Maze.css */
+.maze-container {
+  display: inline-block;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.maze-cell {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.path {
+  background-color: #e0e7ff;
+}
+
+.wall {
+  background-color: #374151;
+}
+
+.entry-point {
+  background-color: #34d399; /* Green for entry */
+  border-radius: 5px;
+}
+
+.exit-point {
+  background-color: #f43f5e; /* Red for exit */
+  border-radius: 5px;
+}
+
+.player {
+  background-color: #60a5fa; /* Blue for player */
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.solution-path {
+  background-color: rgba(250, 204, 21, 0.5); /* Yellow with transparency */
+}
+
